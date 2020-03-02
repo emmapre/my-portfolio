@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
   font-size: 17px;
 }
 
@@ -10,6 +10,7 @@ h1 {
   letter-spacing: 0;
   color: #fff;
   font-weight: bold;
+  font-family: Montserrat;
   margin: 0;
 }
 
@@ -22,10 +23,12 @@ h1 {
 
 h4 {
   color: #FA382F;
+  font-family: Montserrat;
 }
 
 h6 {
   color: #fff;
+  font-family: Montserrat;
 }
 
 
@@ -115,11 +118,13 @@ header {
 h2 {
   background-color: #FA382F;
   font-size: 22px;
+  font-family: Montserrat;
   color: #fff;
   letter-spacing: 0;
   display: flex;
   justify-content: center;
   padding: 3px 11px;
+  margin: 0 0 30px 0;
 }
 
 .portfolio-section {
@@ -139,6 +144,7 @@ h2 {
 
 .about-me {
   margin-top: 5px;
+  font-family: Montserrat;
 }
 
 .about-me h2 {
@@ -171,13 +177,107 @@ h2 {
 /********** TECH STYLING ***********/
 .tech {
   text-align: center;
+  font-family: Montserrat;
+}
+
+.tech p {
+  margin: 0;
 }
 
 /********** PROJECT STYLING ***********/
-.projects {}
+.projects a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+
+}
+
+.big-card {
+  margin-bottom: 40px;
+}
+
+.small-card {
+  margin-bottom: 20px;
+}
+
+.project-image {
+  background: url(./assets/weather-app.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FDDFE7;
+}
+
+.projects h4 {
+  font-size: 21px;
+  margin: 20px 0 13px 0;
+}
+
+.project-type {
+  text-transform: uppercase;
+  display: inline;
+  color: #FA382F;
+  font-weight: bold;
+}
+
+.arrows {
+  text-transform: uppercase;
+  display: inline;
+  color: #FA382F;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project-tags-container {
+  display: flex;
+}
+
+.project-tag {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  background-color: #FDDFE7;
+  margin: 0 5px 0 0;
+  padding: 0px 10px;
+  height: 16px;
+}
+
 
 /********** THOUGHTS STYLING ***********/
 .thoughts {}
+
+
+.thoughts img {
+  width: 300px;
+  height: 200px;
+}
+
+.date {
+  color: #FA382F;
+  font-size: 18px;
+  align-self: left;
+}
+
+.thoughts-headline {
+  font-weight: bold;
+  font-size: 21px;
+}
+
 
 /********** SKILLS STYLING ***********/
 .skills {}
