@@ -26,10 +26,7 @@ h4 {
   font-family: Montserrat;
 }
 
-h6 {
-  color: #fff;
-  font-family: Montserrat;
-}
+
 
 
 /* **********HEADER STYLING********** */
@@ -189,11 +186,8 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   text-decoration: none;
   color: #000;
-  font-family: Roboto;
-
 }
 
 .big-card {
@@ -208,11 +202,12 @@ h2 {
   background: url(./assets/weather-app.png);
   background-size: cover;
   background-position: center;
-  width: 300px;
+  width: 100%;
   height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: center;
 }
 
 .projects h3 {
@@ -259,28 +254,71 @@ h2 {
 
 
 /********** THOUGHTS STYLING ***********/
-.thoughts {}
-
+.thoughts a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
 
 .thoughts img {
-  width: 300px;
+  width: 100%;
   height: 200px;
+  align-self: center;
+  margin-bottom: 30px;
 }
 
 .date {
   color: #FA382F;
   font-size: 18px;
-  align-self: left;
+  font-weight: 400;
+  align-self: flex-start;
 }
 
 .thoughts-headline {
   font-weight: bold;
   font-size: 21px;
+  margin: 0;
+}
+
+.thoughts p {
+  margin: 0;
+}
+
+.thoughts .small-card {
+  display: inline-flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 
 /********** SKILLS STYLING ***********/
-.skills {}
+.lists-of-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-list {
+  width: 140px;
+}
+
+.list-headline {
+  color: #FA382F;
+  text-align: center;
+  font-size: 17px;
+  margin: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
 
 /********** FOR MORE STYLING ***********/
 .for-more {}
