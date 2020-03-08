@@ -6,7 +6,7 @@ body {
 
 
 h4 {
-  color: #FA382F;
+  color: #2f792f;
   font-family: Montserrat;
 }
 
@@ -30,7 +30,7 @@ header {
 .layer-header {
   position: absolute;
   z-index: 5;
-  background: rgb(184, 170, 151);
+  background: #52433b;
   height: 100%;
   width: 100%;
   opacity: 0.6;
@@ -119,7 +119,7 @@ h1 {
 /******* GENERAL SECTION STYLING **********/
 
 h2 {
-  background-color: #FA382F;
+  background-color: #3b693f;
   font-size: 22px;
   font-family: Montserrat;
   color: #fff;
@@ -164,14 +164,14 @@ h2 {
 .line {
   height: 3px;
   width: 35px;
-  background-color: #FA382F;
+  background-color: #3b693f;
 
 }
 
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #FA382F;
+  background-color: #3b693f;
   border-radius: 50%;
 }
 
@@ -187,7 +187,7 @@ h2 {
 }
 
 .tech-skill {
-  color: #FA382F;
+  color: #3b693f;
 }
 
 /********** PROJECT STYLING ***********/
@@ -224,7 +224,7 @@ h2 {
 .layer-project-image {
   position: absolute;
   z-index: 5;
-  background: grey;
+  background: #000;
   height: 100%;
   width: 100%;
   opacity: 0.5;
@@ -236,7 +236,7 @@ h2 {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FDDFE7;
+  color: #c3dfc3;
   z-index: 10;
 
 
@@ -250,14 +250,14 @@ h2 {
 .project-type {
   text-transform: uppercase;
   display: inline;
-  color: #FA382F;
+  color: #3b693f;
   font-weight: bold;
 }
 
 .arrows {
   text-transform: uppercase;
   display: inline;
-  color: #FA382F;
+  color: #3b693f;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -270,7 +270,7 @@ h2 {
   display: flex;
   align-items: center;
   font-size: 9px;
-  background-color: #FDDFE7;
+  background-color: #c3dfc3;
   margin: 0 5px 0 0;
   padding: 0px 10px;
   height: 16px;
@@ -294,7 +294,7 @@ h2 {
 }
 
 .date {
-  color: #FA382F;
+  color: #214e21;
   font-size: 18px;
   font-weight: 400;
   align-self: flex-start;
@@ -322,17 +322,15 @@ h2 {
 /********** SKILLS STYLING ***********/
 .lists-of-skills {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
 }
 
-.skill-list {
-  width: 140px;
-}
+
 
 .list-headline {
-  color: #FA382F;
+  color: #3b693f;
   text-align: center;
   font-size: 17px;
   margin: 0;
@@ -349,7 +347,7 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  color: #FA382F;
+  color: #3b693f;
   font-family: Montserrat;
   font-size: 10px;
   font-weight: bold;
@@ -363,7 +361,7 @@ h2 {
 }
 
 .red-icon {
-  border: #FA382F 3px solid;
+  border: #3b693f 3px solid;
   box-sizing: border-box;
   height: 60px;
   width: 60px;
@@ -377,7 +375,7 @@ h2 {
 
 /********** FOOTER STYLING  ***********/
 footer {
-  background: #072BCE;
+  background: #dda79b;
   color: #fff;
   font-family: Montserrat;
 }
@@ -397,6 +395,8 @@ footer p {
 /********** MEDIA QUEIRES ***********/
 
 @media screen and (min-width: 750px) {
+
+
 
   .header-container {
 
