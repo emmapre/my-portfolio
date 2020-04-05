@@ -34,7 +34,7 @@ header {
 .layer-header {
   position: absolute;
   z-index: 5;
-  background: #52433b;
+  background: #5e4f45;
   height: 100%;
   width: 100%;
   opacity: 0.6;
@@ -224,19 +224,17 @@ h2 {
   align-items: center;
   align-self: center;
   position: relative;
-  filter: blur (80%);
 }
 
 
-/* .layer-project-image {
+.layer-project-image {
   position: absolute;
   height: 180px;
-  width: 300px;
+  max-width: 300px;
   z-index: 9;
   background: #000;
   opacity: 0.5;
-  margin: auto;
-} */
+}
 
 .projects h3 {
   font-family: Montserrat;
@@ -246,7 +244,7 @@ h2 {
   color: #c3dfc3;
   z-index: 10;
   position: absolute;
-  margin: 0;
+  margin: auto;
 }
 
 .projects h4 {
@@ -397,7 +395,7 @@ h2 {
 
 /********** FOOTER STYLING  ***********/
 footer {
-  background: #dda79b;
+  background: #a07077;
   color: #fff;
   font-family: Montserrat;
 }
@@ -502,9 +500,9 @@ footer p {
   }
 
   .project-card.big-card {
-    /* max-width: 40%; */
     max-width: 300px;
   }
+
 
   .project-image {
     width: 100%;
@@ -520,12 +518,6 @@ footer p {
   }
 
   .other-project-container {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left; */
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -623,4 +615,5 @@ footer p {
     padding-left: 400px;
     padding-right: 400px;
   }
+
 }
