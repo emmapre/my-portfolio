@@ -1,0 +1,148 @@
+header {
+  height: 500px;
+  background: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  z-index: 1;
+}
+
+
+.layer-header {
+  position: absolute;
+  z-index: 5;
+  background: #5e4f45;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  margin: auto;
+
+}
+
+.subheading {
+  font-size: 24px;
+  display: block;
+}
+
+
+
+.header-container {
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 105px 40px 0px 40px;
+  /* backdrop-filter: blur(3px) contrast(.6); */
+  z-index: 10;
+
+  position: relative;
+
+}
+
+.icons-top {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.icon-top img {
+  height: 16px;
+
+}
+
+.icon {
+  border: solid #fff 3px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.portfolio-title {
+  align-self: flex-start;
+}
+
+.portfolio-name {
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.52px;
+}
+
+.name {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.profile-photo {
+  height: 162px;
+  width: 162px;
+  border: #fff solid 3px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-bottom: -15px;
+}
+
+@media screen and (min-width: 750px) {
+
+  .header-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+
+
+  /* **********HEADER STYLING********** */
+
+  header {
+    height: 900px;
+  }
+
+
+  .subheading {
+    font-size: 50px;
+  }
+
+  .header-container {
+    height: 660px;
+    padding: 240px 200px 0px 200px;
+  }
+
+  .icons-top img {
+    height: 30px;
+  }
+
+  .icon {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+  }
+
+  .portfolio-name {
+    font-size: 28px;
+  }
+
+  .profile-photo {
+    height: 330px;
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .header-container {
+    height: 660px;
+    padding: 240px 400px 0px 400px;
+  }
+}

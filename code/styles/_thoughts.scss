@@ -1,0 +1,70 @@
+.thoughts a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.thoughts img {
+  max-width: 300px;
+  max-height: 200px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.date {
+  color: $primaryColor;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.thoughts-headline {
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+}
+
+.thoughts p {
+  margin: 0;
+}
+
+.thoughts .small-card {
+  display: inline-flex;
+  flex-direction: row;
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 1100px) {
+
+  .big-thoughts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .thoughts-card.big-card {
+    max-width: 45%;
+  }
+
+  .thoughts img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .date {
+    font-size: 25px;
+  }
+
+  .thoughts-headline {
+    font-size: 30px;
+  }
+
+  .thoughts-card.small-card p {
+    font-size: 25px;
+  }
+}

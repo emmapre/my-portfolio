@@ -1,0 +1,671 @@
+.about-me {
+  margin-top: 5px;
+  font-family: Montserrat;
+}
+
+.about-me h2 {
+  display: none;
+}
+
+.decoration {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  margin-right: 15px;
+  padding-bottom: 4px;
+}
+
+.line {
+  height: 3px;
+  width: 35px;
+  background-color: #3b693f;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #3b693f;
+  border-radius: 50%;
+}
+
+.icons-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #3b693f;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.icon-for-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+.red-icon {
+  border: #3b693f 3px solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 60px;
+  width: 60px;
+  margin-left: 0px;
+}
+
+.red-icon img {
+  height: 20px;
+  width: 20px;
+}
+
+footer {
+  background: #a07077;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+.footer-headline {
+  background: none;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.name-footer {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1100px) {
+  .icons-bottom {
+    font-size: 25px;
+  }
+  .footer-headline {
+    font-size: 38px;
+  }
+  .red-icon {
+    height: 160px;
+    width: 160px;
+  }
+  .red-icon img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+header {
+  height: 500px;
+  background: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  z-index: 1;
+}
+
+.layer-header {
+  position: absolute;
+  z-index: 5;
+  background: #5e4f45;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  margin: auto;
+}
+
+.subheading {
+  font-size: 24px;
+  display: block;
+}
+
+.header-container {
+  height: 395px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 105px 40px 0px 40px;
+  /* backdrop-filter: blur(3px) contrast(.6); */
+  z-index: 10;
+  position: relative;
+}
+
+.icons-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.icon-top img {
+  height: 16px;
+}
+
+.icon {
+  border: solid #fff 3px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.portfolio-title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.portfolio-name {
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.52px;
+}
+
+.name {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.profile-photo {
+  height: 162px;
+  width: 162px;
+  border: #fff solid 3px;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: -15px;
+}
+
+@media screen and (min-width: 750px) {
+  .header-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  /* **********HEADER STYLING********** */
+  header {
+    height: 900px;
+  }
+  .subheading {
+    font-size: 50px;
+  }
+  .header-container {
+    height: 660px;
+    padding: 240px 200px 0px 200px;
+  }
+  .icons-top img {
+    height: 30px;
+  }
+  .icon {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+  }
+  .portfolio-name {
+    font-size: 28px;
+  }
+  .profile-photo {
+    height: 330px;
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header-container {
+    height: 660px;
+    padding: 240px 400px 0px 400px;
+  }
+}
+
+.projects a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.big-card {
+  margin-bottom: 40px;
+}
+
+.small-card {
+  margin-bottom: 20px;
+}
+
+.project-image-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-image {
+  max-height: 180px;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
+}
+
+.layer-project-image {
+  position: absolute;
+  height: 180px;
+  max-width: 300px;
+  z-index: 9;
+  background: #000;
+  opacity: 0.5;
+}
+
+.projects h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #c3dfc3;
+  z-index: 10;
+  position: absolute;
+  margin: auto;
+}
+
+.projects h4 {
+  font-size: 21px;
+  margin: 20px 0 13px 0;
+  display: block;
+}
+
+.project-type {
+  text-transform: uppercase;
+  display: inline;
+  color: #3b693f;
+  font-weight: bold;
+}
+
+.arrows {
+  text-transform: uppercase;
+  display: inline;
+  color: #3b693f;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project-tags-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 9px;
+  background-color: #c3dfc3;
+  margin: 0 5px 0 0;
+  padding: 0px 10px;
+  height: 16px;
+}
+
+.other-project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (min-width: 1100px) {
+  /********** PROJECT STYLING ***********/
+  .big-projects-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .projects a {
+    font-size: 25px;
+  }
+  .project-card.big-card {
+    max-width: 300px;
+  }
+  .project-image {
+    width: 100%;
+  }
+  .layer-project-image {
+    width: 100%;
+  }
+  .projects h4 {
+    font-size: 38px;
+  }
+  .other-project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .project-card.small-card p {
+    margin-bottom: 10px;
+  }
+  .project-tag {
+    font-size: 16px;
+    height: 28px;
+  }
+}
+
+.lists-of-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.list-headline {
+  color: #3b693f;
+  text-align: center;
+  font-size: 17px;
+  margin: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+  .list-headline {
+    font-size: 25px;
+  }
+  .skills ul {
+    font-size: 25px;
+  }
+  .list-headline {
+    margin-bottom: -20px;
+  }
+}
+
+.tech {
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.tech p {
+  margin: 0;
+}
+
+.tech-skill {
+  color: #3b693f;
+}
+
+.thoughts a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.thoughts img {
+  max-width: 300px;
+  max-height: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 30px;
+}
+
+.date {
+  color: #3b693f;
+  font-size: 18px;
+  font-weight: 400;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.thoughts-headline {
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+}
+
+.thoughts p {
+  margin: 0;
+}
+
+.thoughts .small-card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 1100px) {
+  .big-thoughts-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .thoughts-card.big-card {
+    max-width: 45%;
+  }
+  .thoughts img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .date {
+    font-size: 25px;
+  }
+  .thoughts-headline {
+    font-size: 30px;
+  }
+  .thoughts-card.small-card p {
+    font-size: 25px;
+  }
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin: 0;
+}
+
+h2 {
+  background-color: #3b693f;
+  font-size: 22px;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  padding: 3px 11px;
+  margin: 0 0 30px 0;
+}
+
+h4 {
+  color: #3b693f;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+/******* GENERAL SECTION STYLING **********/
+.portfolio-section {
+  padding: 60px 40px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grey-section {
+  background-color: #f4f4f4;
+}
+
+/********** MEDIA QUEIRES ***********/
+@media screen and (min-width: 750px) {
+  .portfolio-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  /******* GENERAL SECTION STYLING **********/
+  .portfolio-section {
+    padding: 60px 200px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .portfolio-section {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

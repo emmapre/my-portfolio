@@ -1,0 +1,143 @@
+.projects a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.big-card {
+  margin-bottom: 40px;
+}
+
+.small-card {
+  margin-bottom: 20px;
+}
+
+.project-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  max-height: 180px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+}
+
+.layer-project-image {
+  position: absolute;
+  height: 180px;
+  max-width: 300px;
+  z-index: 9;
+  background: #000;
+  opacity: 0.5;
+}
+
+.projects h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $secondaryColor;
+  z-index: 10;
+  position: absolute;
+  margin: auto;
+}
+
+.projects h4 {
+  font-size: 21px;
+  margin: 20px 0 13px 0;
+  display: block;
+}
+
+.project-type {
+  text-transform: uppercase;
+  display: inline;
+  color: $primaryColor;
+  font-weight: bold;
+}
+
+.arrows {
+  text-transform: uppercase;
+  display: inline;
+  color: $primaryColor;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project-tags-container {
+  display: flex;
+}
+
+.project-tag {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  background-color: $secondaryColor;
+  margin: 0 5px 0 0;
+  padding: 0px 10px;
+  height: 16px;
+}
+
+.other-project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 1100px) {
+  /********** PROJECT STYLING ***********/
+
+  .big-projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
+  }
+
+  .projects a {
+    font-size: 25px;
+  }
+
+  .project-card.big-card {
+    max-width: 300px;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .layer-project-image {
+    width: 100%;
+  }
+  
+  .projects h4 {
+    font-size: 38px;
+  }
+
+  .other-project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
+  }
+
+  .project-card.small-card p {
+    margin-bottom: 10px;
+  }
+
+  .project-tag {
+    font-size: 16px;
+    height: 28px;
+  }
+}
